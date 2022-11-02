@@ -44,7 +44,7 @@ state
 -text input stored in an array
 
 events
--eventListeners for each dropdowm
+-eventListeners for each dropdown
 -eventListerner for button
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
