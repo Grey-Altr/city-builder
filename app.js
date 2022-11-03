@@ -42,3 +42,4 @@ nightLifeDrop.addEventListener('change', (e) => {
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
+test;
