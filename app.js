@@ -9,11 +9,11 @@ const climateImg = document.getElementById('climate-img');
 const architectureImg = document.getElementById('architecture-img');
 const nightLifeImg = document.getElementById('night-life-img');
 
-const sloganEl = document.querySelector('#slogans');
-const sloganInput = document.querySelector('#slogan-input');
+const sloganEl = document.getElementById('slogans-display');
+const sloganInput = document.getElementById('slogan-input');
 const sloganBtn = document.getElementById('slogan-input-button');
 
-const changeCounter = document.querySelector('#counter');
+const changeCounter = document.getElementById('this-one');
 
 /* State */
 let climateCounter = 0;
@@ -52,7 +52,7 @@ sloganBtn.addEventListener('click', (e) => {
 
 /* Display Functions */
 function displayCounter() {
-    changeCounter.innerText = `You have changed climate ${climateCounter} times, architecture ${architectureCounter} times, and nightlife ${nightLifeCounter} times.`;
+    changeCounter.textContent = `You have changed climate ${climateCounter} times, architecture ${architectureCounter} times, and nightlife ${nightLifeCounter} times.`;
 }
 
 function displaySlogans() {
