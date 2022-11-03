@@ -13,7 +13,7 @@ const sloganEl = document.getElementById('slogans-display');
 const sloganInput = document.getElementById('slogan-input');
 const sloganBtn = document.getElementById('slogan-input-button');
 
-const changeCounter = document.getElementById('this-one');
+const changeCounter = document.getElementById('counter-section');
 
 /* State */
 let climateCounter = 0;
