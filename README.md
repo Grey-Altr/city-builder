@@ -1,5 +1,52 @@
 ## The Golden Rule:
 
+![](./wireframe.png)
+
+-   section
+    -div
+    -dropdown (select)
+    -option
+    -option
+    -option
+    -img
+    -img
+    -img
+    -div
+    -div
+    -dropdown (select)
+    -option
+    -option
+    -option
+    -img
+    -img
+    -img
+    -div-div
+    -dropdown (select)
+    -option
+    -option
+    -option
+    -img ()
+    -div
+    -div
+    -counter
+    -div
+    -section
+
+-section
+-div
+-input
+-button
+-div
+-section
+
+state
+-number of clicks for each dropdown
+-text input stored in an array
+
+events
+-eventListeners for each dropdown
+-eventListerner for button
+
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
 If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.

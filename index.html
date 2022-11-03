@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>City Picker</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <h1>Steve & Grey's Chuffin' City Builder</h1>
+        </header>
 
-</head>
+        <main>
+            <section class="city-section">
+                <div class="city-quality" id="climate">
+                    <img id="climate-img" src="./assets/cold-city.jpeg">
+                    <label>
+                        Climate
+                        <select name="" id="climate-drop"></label>
+                            <option value="cold-city">Cold</option>
+                        <option value="hot-city">Hot</option>
+                        <option value="mild-city">Mild</option>
+                    </select>
+                </label>
+                    </div>
+                </div>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
+                <div class="city-quality" id="architecture">
+                    <img id="architecture-img" src="./assets/brutalist.jpeg">
+                    <label>
+                        Architecture
+                        <select name="" id="architecture-drop"></label>
+                        <option value="brutalist">Brutalist</option>
+                        <option value="colonial">Colonial</option>
+                        <option value="modernist">Modernist</option>
+                    </select>
+                </label>
+                </div>
 
-    <main>
+                <div class="city-quality" id="nightlife">
+                    <img id="night-life-img" src="./assets/red-light.jpeg">
+                    <label>Nightlife
+                        <select name="" id="nightlife-drop"></label>
+                        <option value="red-light">Red light</option>
+                        <option value="disco">Disco</option>
+                        <option value="live-music">Live music</option>
+                    </select>
+                </label>
+                </div>
+            </section>
 
-    </main>
+            <section class="slogans">
+                <div id="counter-section" class="counter"></div>
+                <div>
+                    <input type="text" id="slogan-input" placeholder="Enter Slogan Here!"/>
+                    <button id="slogan-input-button">Submit</button>
+                </div>
 
-</body>
-
+                </div>
+                <div id="slogans-display">
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
